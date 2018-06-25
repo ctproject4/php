@@ -12,26 +12,26 @@ $(document).ready(function() {
 	
 	
 	    $('#button_home').click(function(){
-		window.location="../ecomm_project/index.php";
+		window.location="../index.php";
       });
    
 	
 	 $('#button_login').click(function(){
 		
-		window.location="../ecomm_project/LoginPageincluded.php";
+		window.location="../LoginPageIncluded.php";
 		
       });
 	  
 	   $('#button_signup').click(function(){
 		
-		window.location="../ecomm_project/SignupPageincluded.php";
+		window.location="../SignupPageIncluded.php";
 		
       });
 	
 	
 	 $('#button_logout').click(function(){
 		
-		window.location="../ecomm_project/SignOutPageincluded.php";
+		window.location="../SignOutPageIncluded.php";
 		
       });
 	
