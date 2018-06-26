@@ -5,15 +5,15 @@ class ConfigTest extends PHPUnit_Framework_TestCase
 	{
 		public function testHostconfiguration()
 		{
-			$this->assertEquals('172.27.59.54', Config::HOST);
+			$this->assertEquals('172.31.16.149', Config::HOST);
 		}
 		public function testUserconfiguration()
 		{
-			$this->assertEquals('ecomm', Config::USER);
+			$this->assertEquals('akah', Config::USER);
 		}
 		public function testPasswordconfiguration()
 		{
-			$this->assertEquals('ecomm@123', Config::PASSWORD);
+			$this->assertEquals('Password_123', Config::PASSWORD);
 		}
 		public function testHelperconfiguration()
 		{
