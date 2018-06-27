@@ -127,7 +127,7 @@
 
 
 <target name="zip" description="zip files using ant">
-    <zip destfile="ecomm_project.zip" basedir="ecomm_project/"/>
+    <zip destfile="ecomm_project.zip" dir="~/chef-starter/chef-repo/cookbooks/project/files/"/>
 </target>       
 
 
