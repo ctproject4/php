@@ -5,7 +5,7 @@ class ConfigTest extends PHPUnit_Framework_TestCase
 	{
 		public function testHostconfiguration()
 		{
-			$this->assertEquals('172.31.16.149', Config::HOST);
+			$this->assertEquals('ecomm.cm1y1sbwabts.us-east-2.rds.amazonaws.com', Config::HOST);
 		}
 		public function testUserconfiguration()
 		{
