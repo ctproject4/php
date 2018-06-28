@@ -6,7 +6,7 @@
 */
 class Config
  {
-    const HOST     = '172.31.16.149',
+    const HOST     = 'ecomm.cm1y1sbwabts.us-east-2.rds.amazonaws.com',
           USER     = 'akah',
           PASSWORD = 'Password_123',
 		
